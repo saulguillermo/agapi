@@ -1,16 +1,20 @@
-# AGAPI - API para el desarrollo de Algoritmos Geneticos
+# AGAPI
 
-resumen de lo que hace agapi 
+API para el desarrollo de Algoritmos Geneticos
 
-## Overview
+## Resumen
 
-como funciona
+Agapi es una libreria de clases escrita en java para desarrollar algoritmos 
+geneticos. Consta de dos paquetes: en el paquete <tt>agapi</tt> contiene las
+clases donde se desarrolla el algoritmo, y el paquete <tt>impl</tt> posee clases
+opcionales que permiten utilizar varios tipos de individuos pre configurados, 
+distintas tecnicas de selección y selección post-cruce.
 
-## Usage
+## Uso
+En el capitulo 6 del archivo <em>tesis.pdf</em> se tiene una implementacion
+ilustrativa.
 
-como se usa
-
-## Copyright and License
+## Copyright y Licencia
 
 GNU General Public License version 3
 
