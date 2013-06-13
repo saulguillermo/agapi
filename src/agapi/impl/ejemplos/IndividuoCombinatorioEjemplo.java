@@ -51,20 +51,20 @@ public class IndividuoCombinatorioEjemplo extends IndividuoCombinatorio {
 		Configuracion c = new Configuracion();
 
 		c.setNumeroEjecuciones(1);
-		c.setNumeroGeneraciones(100);
-		c.setSelector(new SelectorSUS(new FuncionRanking(1.1)));
+		c.setNumeroGeneraciones(500);
+		c.setSelector(new SelectorSUS(new FuncionClasico()));
 		c.setSelectorPostCruce(new SelectorPostCruceSoloHijos());
 		c.setProbabilidadCruce(0.7);
 		c.setProbabilidadMutacion(0.05);
 		c.setElitismo(true);
-		c.setTamanoPoblacion(10);
+		c.setTamanoPoblacion(100);
 		c.setTipoIndividuo(new IndividuoCombinatorioEjemplo());
 		c.setTamanoCromosoma(20);
 		
 		c.iniciarProceso();
 		
 		System.out.println(
-				c.aTexto(Configuracion.GENERACIONES_SIN_POBLACIONES));
+				c.aTexto(Configuracion.GENERACIONES_CON_POBLACIONES));
 		double tiempo = c.getProceso().getTiempoProceso() / 1000000000.0;
 		System.out.println("Tiempo: " + tiempo + " segundos");
 	}
