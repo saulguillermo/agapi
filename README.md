@@ -4,7 +4,7 @@ API para el desarrollo de Algoritmos Geneticos
 
 ## Resumen
 
-Agapi es una libreria de clases escrita en java para desarrollar algoritmos 
+Agapi es una librería de clases escrita en java para desarrollar algoritmos 
 geneticos. Consta de dos paquetes: en el paquete <tt>agapi</tt> contiene las
 clases donde se desarrolla el algoritmo, y el paquete <tt>impl</tt> posee clases
 opcionales que permiten utilizar varios tipos de individuos pre configurados, 
